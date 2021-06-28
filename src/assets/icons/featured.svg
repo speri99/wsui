@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <path id="b" d="M0 0h876v281H0z"/>
+        <filter id="a" width="101.1%" height="103.6%" x="-.6%" y="-1.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <path id="c" d="M13.67.461l8.607 5.109C23.342 6.202 24 7.386 24 8.669V18.76c0 1.283-.658 2.467-1.723 3.1l-8.607 5.108a3.255 3.255 0 0 1-3.34 0l-8.607-5.109C.658 21.227 0 20.043 0 18.76V8.669c0-1.284.658-2.468 1.723-3.1L10.33.461a3.255 3.255 0 0 1 3.34 0z"/>
+        <path id="e" d="M13.67.461l8.607 5.109C23.342 6.202 24 7.386 24 8.669V18.76c0 1.283-.658 2.467-1.723 3.1l-8.607 5.108a3.255 3.255 0 0 1-3.34 0l-8.607-5.109C.658 21.227 0 20.043 0 18.76V8.669c0-1.284.658-2.468 1.723-3.1L10.33.461a3.255 3.255 0 0 1 3.34 0z"/>
+        <path id="g" d="M13.67.461l8.607 5.109C23.342 6.202 24 7.386 24 8.669V18.76c0 1.283-.658 2.467-1.723 3.1l-8.607 5.108a3.255 3.255 0 0 1-3.34 0l-8.607-5.109C.658 21.227 0 20.043 0 18.76V8.669c0-1.284.658-2.468 1.723-3.1L10.33.461a3.255 3.255 0 0 1 3.34 0z"/>
+        <path id="i" d="M13.67.461l8.607 5.109C23.342 6.202 24 7.386 24 8.669V18.76c0 1.284-.658 2.468-1.723 3.1l-8.607 5.108a3.255 3.255 0 0 1-3.34 0L1.723 21.86C.658 21.227 0 20.043 0 18.76V8.67c0-1.284.658-2.468 1.723-3.1L10.33.461a3.255 3.255 0 0 1 3.34 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(-498 -32)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <path fill="transparent" stroke="#E9EAEC" stroke-linejoin="square" d="M.5.5h875v280H.5z"/>
+        </g>
+        <path fill="#ECBC40" fill-rule="nonzero" d="M16.67 1.461l8.607 5.109C26.342 7.202 27 8.386 27 9.669V19.76c0 1.283-.658 2.467-1.723 3.1l-8.607 5.108a3.255 3.255 0 0 1-3.34 0l-8.607-5.109C3.658 22.227 3 21.043 3 19.76V9.669c0-1.284.658-2.468 1.723-3.1l8.607-5.108a3.255 3.255 0 0 1 3.34 0z"/>
+        <path stroke="#F1964A" stroke-width="2" d="M16.379 1.953a2.683 2.683 0 0 0-2.758 0L5.014 7.06c-.888.528-1.443 1.524-1.443 2.608V19.76c0 1.084.555 2.08 1.443 2.608l8.607 5.109a2.683 2.683 0 0 0 2.758 0l8.607-5.109c.888-.528 1.443-1.525 1.443-2.608V9.669c0-1.084-.555-2.08-1.443-2.608l-8.607-5.109z"/>
+        <g transform="translate(3 1)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#FF8876" fill-opacity=".6" fill-rule="nonzero" d="M-1.714 20.571h27.428v6.858H-1.714z" mask="url(#d)"/>
+        </g>
+        <g transform="translate(3 1)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path fill="#FF8876" fill-opacity=".4" fill-rule="nonzero" d="M-1.714 13.714h27.428v6.857H-1.714z" mask="url(#f)"/>
+        </g>
+        <g transform="translate(3 1)">
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <path fill="#FF8876" fill-opacity=".2" fill-rule="nonzero" d="M-1.714 6.857h27.428v6.857H-1.714z" mask="url(#h)"/>
+        </g>
+        <g transform="translate(3 1)">
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <g mask="url(#j)">
+                <path fill="#FFF" fill-rule="nonzero" d="M11.619 17.597l-4.03 2.26.77-4.787-3.262-3.39 4.507-.7 2.015-4.355 2.015 4.356 4.507.699-3.261 3.39.77 4.787z"/>
+                <path stroke="#EFB14B" stroke-width="1.286" d="M11.619 18.187l-4.681 2.625.894-5.56-3.787-3.937 5.234-.811 2.34-5.06 2.34 5.06 5.234.81-3.787 3.938.894 5.56z"/>
+            </g>
+        </g>
+        <path stroke="#EFB14B" stroke-width="2" d="M16.379 1.953a2.683 2.683 0 0 0-2.758 0L5.014 7.06c-.888.528-1.443 1.524-1.443 2.608V19.76c0 1.084.555 2.08 1.443 2.608l8.607 5.109a2.683 2.683 0 0 0 2.758 0l8.607-5.109c.888-.528 1.443-1.525 1.443-2.608V9.669c0-1.084-.555-2.08-1.443-2.608l-8.607-5.109z"/>
+    </g>
+</svg>

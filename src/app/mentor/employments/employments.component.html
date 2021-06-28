@@ -1,0 +1,43 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+            <button>Add Experince</button>
+        </div>
+        <div class="col-10">
+            <form [formGroup]="experienceForm">
+                <div class="form-group col-md-10">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="Designation"
+                        formControlName="designationRole" placeholder="Designation" 
+                        [(ngModel)]="userEmployments.designationRole">
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Company"
+                        formControlName="companyName" [(ngModel)]="userEmployments.description">
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Description"
+                        formControlName="description" [(ngModel)]="userEmployments.companyName">
+                </div>
+                <div class="form-group col-md-10">
+                    <input matInput [matDatepicker]="picker1" type="text" class="form-control" id="exampleInputPassword1" placeholder="From"
+                        formControlName="fromDate" [(ngModel)]="userEmployments.fromDate">
+                    <div class="input-group-prepend">
+                        <mat-datepicker-toggle matSuffix [for]="picker1" class="datepicker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker1></mat-datepicker>
+                    </div>
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Till"
+                        formControlName="toDate">
+                </div>
+
+                <div class="form-group col-md-10">
+                    <input type="checkbox" 
+                    class="form-control" formControlName="isCurrent" id="mySingleCheckbox">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+            1 of 2
+        </div>
+        <div class="col-10">
+            <form [formGroup]="overviewForm">
+                <div class="form-group col-md-10">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        formControlName="shortDesc" placeholder="One Sentence describing you">
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Description"
+                        formControlName="description" [(ngModel)]="mentorProfile.description">
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Category"
+                        formControlName="password">
+                </div>
+                <div class="form-group col-md-10">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Search Tags"
+                        formControlName="password">
+                </div>
+                <div class="form-group col-md-10">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"
+                        formControlName="technology">
+                        <option selected>Select technology
+                        </option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-10">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example"
+                        formControlName="services">
+                        <option selected>Select technology
+                        </option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
